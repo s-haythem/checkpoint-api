@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react'
 import axios from 'axios'
 import './App.css';
 import UserList from './components/UserList';
-import "bootstrap/dist/css/bootstrap.min.css"
+
 
 
 function App() {
