@@ -10,12 +10,11 @@ function App() {
   const [users,setUsers] = useState([])
 
   useEffect(() => {
-    const fetchData = () => {
+    
       axios.get("https://jsonplaceholder.typicode.com/users")
       .then(res => setUsers(res.data))
       .catch(err => alert(err))
-    }
-    fetchData()
+    
   }, [])
   
   return (
